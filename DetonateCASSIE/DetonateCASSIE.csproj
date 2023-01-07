@@ -35,6 +35,9 @@
         <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <HintPath>..\packages\EXILED.6.0.0-beta.18\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
         </Reference>
+        <Reference Include="Assembly-CSharp-firstpass">
+          <HintPath>..\..\..\Desktop\Plugin Development\NWAPI-Equilibrium\bin\Debug\Assembly-CSharp-firstpass.dll</HintPath>
+        </Reference>
         <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <HintPath>..\packages\EXILED.6.0.0-beta.18\lib\net48\CommandSystem.Core.dll</HintPath>
         </Reference>
@@ -72,6 +75,9 @@
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>..\..\..\Desktop\Plugin Development\NWAPI-Equilibrium\bin\Debug\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Config.cs" />

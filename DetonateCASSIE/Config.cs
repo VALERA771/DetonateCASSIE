@@ -11,6 +11,15 @@ namespace DetonateCASSIE
         [Description("Is debug mode enabled?")]
         public bool Debug { get; set; } = false;
 
+        [Description("Should auto-nuke be enabled?")]
+        public bool AutoNuke { get; set; } = false;
+
+        [Description("Time (in minutes) when auto-nuke should start")]
+        public int ActivatingMinutes { get; set; } = 20;
+
+        [Description("Can auto-nuke be cancelled?")]
+        public bool IsCancelable { get; set; } = false;
+
         [Description("Should CASSIE be send on every warhead start (true) or only on auto-nuke (false)")]
         public bool EveryStart { get; set; } = false;
 
