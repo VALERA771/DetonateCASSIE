@@ -1,3 +1,5 @@
+![Github All Downloads](https://img.shields.io/github/downloads/VALERA771/DetonateCassie/total.svg?style=flat)
+
 # DetonateCASSIE
 Sends a CASSIE message after a countdown starts and can start a customable auto-nuke
 
